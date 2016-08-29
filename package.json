@@ -17,6 +17,6 @@
     "videojs-ima": "file:./videojs-ima"
   },
   "scripts": {
-    "preinstall": "bin/init && bin/build"
+    "preinstall": "bin/prebuild && bin/build"
   }
 }
