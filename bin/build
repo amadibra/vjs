@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+cd video.js && \
+  rm -rf node_modules && \
+  npm install && \
+  grunt dist && \
+  cd .. && \
+
+cd videojs-contrib-hls && \
+  rm -rf node_modules && \
+  npm install && \
+  npm run build && \
+  cd .. && \
+
+cd videojs-contrib-ads && \
+  rm -rf node_modules && \
+  npm install && \
+  npm run prepublish && \
+  cd .. && \
+
+cd videojs-ima && \
+  rm -rf node_modules && \
+  npm install && \
+  cd .. && \
+
+rm -rf node_modules

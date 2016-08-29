@@ -1,0 +1,22 @@
+{
+  "name": "@kmklabs/vjs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": "4.4.7",
+    "npm": "2.15.8"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "video.js": "file:./video.js",
+    "videojs-contrib-ads": "file:./videojs-contrib-ads",
+    "videojs-contrib-hls": "file:./videojs-contrib-hls",
+    "videojs-ima": "file:./videojs-ima"
+  },
+  "scripts": {
+    "preinstall": "bin/init && bin/build"
+  }
+}

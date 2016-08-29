@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+peru sync && \
+
+cd videojs-contrib-hls && \
+  npm install && \
+  npm uninstall video.js --save && \
+  npm install ../video.js --save && \
+  cd .. && \
+
+cd videojs-contrib-ads && \
+  npm install && \
+  npm uninstall video.js --save-dev && \
+  npm install ../video.js --save-dev && \
+  cd .. && \
+
+cd videojs-ima && \
+  npm install && \
+  npm uninstall video.js --save && \
+  npm uninstall videojs-contrib-ads --save && \
+  npm install ../video.js --save && \
+  npm install ../videojs-contrib-ads --save

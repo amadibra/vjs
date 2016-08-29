@@ -1,0 +1,7 @@
+.peru/
+node_modules/
+
+video.js/
+videojs-contrib-hls/
+videojs-contrib-ads/
+videojs-ima/
