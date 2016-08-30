@@ -15,8 +15,5 @@
     "videojs-contrib-ads": "file:./videojs-contrib-ads",
     "videojs-contrib-hls": "file:./videojs-contrib-hls",
     "videojs-ima": "file:./videojs-ima"
-  },
-  "scripts": {
-    "preinstall": "bin/prebuild && bin/build"
   }
 }
