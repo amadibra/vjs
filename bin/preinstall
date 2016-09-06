@@ -1,1 +1,0 @@
-bin/clean && bin/prebuild && bin/build && npm install

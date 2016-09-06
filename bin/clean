@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-rm -rf node_modules && \
-rm -rf .peru && \
-rm -rf video.js && \
-rm -rf videojs-contrib-hls && \
-rm -rf videojs-contrib-ads && \
-rm -rf videojs-ima

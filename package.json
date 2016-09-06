@@ -11,9 +11,9 @@
   },
   "main": "./index.js",
   "dependencies": {
-    "video.js": "file:./video.js",
-    "videojs-contrib-ads": "file:./videojs-contrib-ads",
-    "videojs-contrib-hls": "file:./videojs-contrib-hls",
-    "videojs-ima": "file:./videojs-ima"
+    "video.js": "5.10.8",
+    "videojs-contrib-ads": "3.5.2",
+    "videojs-contrib-hls": "3.3.12",
+    "videojs-ima": "googleads/videojs-ima#2f3a06d"
   }
 }
